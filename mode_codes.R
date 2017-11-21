@@ -1,4 +1,5 @@
 
+## Original mode codes for 2009 NHTS ----
 modeCodes <- function(m){
   if(m=="AUTO"){
     codes<-c(1,2,3,4)
@@ -14,6 +15,7 @@ modeCodes <- function(m){
   return(codes)
 }
 
+## Revised mode codes for 2009 NHTS ----
 modeCodes2009 <- function(m){
   if(m=="AUTO"){
     codes<-c(1,2,3,4)
